@@ -12,6 +12,7 @@
   --background-dark-red: #770000;
   --font: #b35252;
   --font-2: #a91616;
+  --font-harga: rgb(77, 76, 76);
   --font-black: rgb(46, 46, 46);
   --font-secondary: rgb(67, 67, 67);
 }
@@ -63,23 +64,35 @@ body {
 
 /* header akhir */
 
-/* jualan awal */
+/* produk awal */
 
-#jualan {
+#produk {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-#jualan img {
+#produk img {
   width: 300px;
-  border: 7px solid var(--background-1);
   border-radius: 10px;
+  border: 7px solid var(--background-1);
   transition: 0.2s;
 }
 
-#jualan img:hover {
+#produk img:hover {
   width: 310px;
 }
-/* jualan akhir */
+
+#produk a {
+  text-decoration: none;
+}
+#produk .name {
+  font-size: 16px;
+}
+
+#produk .Harga {
+  color: var(--font-harga);
+}
+/* produk akhir */
 
 /* footer awal */
 
@@ -111,6 +124,7 @@ body {
     --background-dark-red: #770000;
     --font: #b35252;
     --font-2: #a91616;
+    --font-harga: rgb(77, 76, 76);
     --font-black: rgb(46, 46, 46);
     --font-secondary: rgb(67, 67, 67);
   }
@@ -156,29 +170,41 @@ body {
   }
 
   #header h2 {
-    margin-top: 23%;
-    margin-bottom: 11%;
+    margin-top: 24%;
+    margin-bottom: 7%;
   }
 
   /* header akhir */
 
-  /* jualan awal */
+  /* produk awal */
 
-  #jualan {
+  #produk {
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 
-  #jualan img {
+  #produk img {
     width: 250px;
-    border: 7px solid var(--background-1);
     border-radius: 10px;
+    border: 7px solid var(--background-1);
     transition: 0.2s;
   }
 
-  #jualan img:hover {
-    width: 260px;
+  #produk img:hover {
+    width: 270px;
   }
-  /* jualan akhir */
+
+  #produk a {
+    text-decoration: none;
+  }
+  #produk .name {
+    font-size: 14px;
+  }
+
+  #produk .Harga {
+    color: var(--font-harga);
+  }
+  /* produk akhir */
 
   /* footer awal */
 
