@@ -1,0 +1,171 @@
+/* Font faces */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* End of font faces */
+
+/* root */
+
+:root {
+  --background: rgb(197, 197, 197);
+  --background-1: rgb(48, 47, 47);
+  --background-2: #d36565;
+  --background-3: #a94c4c;
+  --background-dark-red: #770000;
+  --font: #b35252;
+  --font-2: #a91616;
+  --font-black: rgb(46, 46, 46);
+  --font-secondary: rgb(67, 67, 67);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bold;
+  color: var(--font-black);
+}
+
+body {
+  background: var(--background);
+}
+
+/* navbar awal */
+
+#navbar a {
+  color: var(--font-black);
+}
+
+#navbar a:hover {
+  color: var(--background-2);
+}
+
+#navbar i {
+  font-size: 23px;
+}
+
+/* navbar akhir */
+
+/* header awal */
+
+#header {
+  background: var(--background-3);
+}
+
+#header h2 {
+  margin-top: 12%;
+  margin-bottom: 7%;
+}
+
+/* header akhir */
+
+/* jualan awal */
+
+#jualan {
+  margin-top: 5%;
+}
+
+#jualan img {
+  width: 300px;
+  border: 7px solid var(--background-1);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+#jualan img:hover {
+  width: 310px;
+}
+/* jualan akhir */
+
+/* responsive awal */
+
+@media screen and (max-width: 767px) {
+  /* Font faces */
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+  /* End of font faces */
+
+  /* root */
+
+  :root {
+    --background: rgb(197, 197, 197);
+    --background-1: rgb(48, 47, 47);
+    --background-2: #d36565;
+    --background-3: #a94c4c;
+    --background-dark-red: #770000;
+    --font: #b35252;
+    --font-2: #a91616;
+    --font-black: rgb(46, 46, 46);
+    --font-secondary: rgb(67, 67, 67);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  button {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    color: var(--font-black);
+  }
+
+  body {
+    background: var(--background);
+  }
+
+  /* navbar awal */
+
+  #navbar a {
+    color: var(--font-black);
+  }
+
+  #navbar a:hover {
+    color: var(--background-2);
+  }
+
+  #navbar i {
+    font-size: 23px;
+  }
+
+  /* navbar akhir */
+
+  /* header awal */
+
+  #header {
+    background: var(--background-3);
+  }
+
+  #header h2 {
+    margin-top: 23%;
+    margin-bottom: 11%;
+  }
+
+  /* header akhir */
+
+  /* jualan awal */
+
+  #jualan {
+    margin-top: 5%;
+  }
+
+  #jualan img {
+    width: 250px;
+    border: 7px solid var(--background-1);
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+  #jualan img:hover {
+    width: 260px;
+  }
+  /* jualan akhir */
+}
+
+/* responsive akhir */
