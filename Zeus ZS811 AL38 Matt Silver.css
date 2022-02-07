@@ -1,0 +1,275 @@
+/* Font faces */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* End of font faces */
+
+/* root */
+
+:root {
+  --background: rgb(197, 197, 197);
+  --background-1: rgb(48, 47, 47);
+  --background-2: #d36565;
+  --background-3: #a94c4c;
+  --background-4: rgb(206, 46, 11);
+  --background-dark-red: #770000;
+  --font: #b35252;
+  --font-2: #a91616;
+  --font-harga: rgb(77, 76, 76);
+  --font-black: rgb(46, 46, 46);
+  --font-secondary: rgb(67, 67, 67);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bold;
+  color: var(--font-black);
+}
+
+body {
+  background: var(--background);
+}
+
+/* navbar awal */
+
+#navbar a {
+  color: var(--font-black);
+}
+
+#navbar a:hover {
+  color: var(--background-2);
+}
+
+#navbar i {
+  font-size: 23px;
+}
+
+/* navbar akhir */
+
+/* jualan awal */
+
+#jualan {
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+
+#jualan img {
+  width: 450px;
+  border: 7px solid var(--background-1);
+  border-radius: 10px;
+  margin-left: 15%;
+  transition: 0.2s;
+}
+
+#jualan img:hover {
+  width: 460px;
+}
+
+#jualan .helm-full-face {
+  color: var(--font-black);
+  text-decoration: none;
+  background: var(--background-3);
+  padding: 7px 9px;
+  border-radius: 8px;
+}
+
+#jualan .ready {
+  color: var(--font-black);
+  text-decoration: none;
+  background: var(--background-3);
+  padding: 7px 9px;
+  border-radius: 8px;
+}
+
+#jualan h4 {
+  margin-top: 3%;
+  font-size: 21px;
+}
+
+#jualan .harga {
+  color: var(--font-harga);
+}
+
+#jualan .beli {
+  color: var(--font-black);
+  text-decoration: none;
+  background: rgb(232, 94, 20);
+  padding: 7px 220px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+#jualan .beli:hover {
+  padding: 7px 230px;
+}
+
+#jualan .garis {
+  width: 600px;
+}
+
+#jualan h5 {
+  margin-top: 3%;
+}
+
+/* jualan akhir */
+
+/* footer awal */
+
+#footer {
+  margin-top: 10px;
+  background: var(--background-2);
+}
+
+#footer ul li a {
+  color: var(--font-secondary);
+}
+
+/* footer akhir */
+
+@media screen and (max-width: 767px) {
+  /* Font faces */
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+  /* End of font faces */
+
+  /* root */
+
+  :root {
+    --background: rgb(197, 197, 197);
+    --background-1: rgb(48, 47, 47);
+    --background-2: #d36565;
+    --background-3: #a94c4c;
+    --background-4: rgb(206, 46, 11);
+    --background-dark-red: #770000;
+    --font: #b35252;
+    --font-2: #a91616;
+    --font-harga: rgb(77, 76, 76);
+    --font-black: rgb(46, 46, 46);
+    --font-secondary: rgb(67, 67, 67);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  button {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    color: var(--font-black);
+  }
+
+  body {
+    background: var(--background);
+  }
+
+  /* navbar awal */
+
+  #navbar a {
+    color: var(--font-black);
+  }
+
+  #navbar a:hover {
+    color: var(--background-2);
+  }
+
+  #navbar i {
+    font-size: 23px;
+  }
+
+  /* navbar akhir */
+
+  /* jualan awal */
+
+  #jualan {
+    margin-top: 20%;
+    margin-bottom: 7%;
+  }
+
+  #jualan img {
+    width: 250px;
+    border: 7px solid var(--background-1);
+    border-radius: 10px;
+    margin-left: 15%;
+    transition: 0.2s;
+    margin-bottom: 5%;
+  }
+
+  #jualan img:hover {
+    width: 260px;
+  }
+
+  #jualan .helm-full-face {
+    color: var(--font-black);
+    text-decoration: none;
+    background: var(--background-3);
+    padding: 7px 9px;
+    border-radius: 8px;
+    margin-left: 10%;
+  }
+
+  #jualan .ready {
+    color: var(--font-black);
+    text-decoration: none;
+    background: var(--background-3);
+    padding: 7px 9px;
+    border-radius: 8px;
+  }
+
+  #jualan h4 {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+
+  #jualan .harga {
+    color: var(--font-harga);
+    margin-left: 10%;
+  }
+
+  #jualan .beli {
+    color: var(--font-black);
+    text-decoration: none;
+    background: rgb(232, 94, 20);
+    padding: 7px 70px;
+    border-radius: 8px;
+    transition: 0.2s;
+    margin-left: 10%;
+  }
+
+  #jualan .beli:hover {
+    padding: 7px 75px;
+  }
+
+  #jualan .ukuran {
+    margin-left: 10%;
+  }
+
+  #jualan h5 {
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+
+  /* jualan akhir */
+
+  /* footer awal */
+
+  #footer {
+    margin-top: 10px;
+    background: var(--background-2);
+  }
+
+  #footer ul li a {
+    color: var(--font-secondary);
+  }
+
+  /* footer akhir */
+}
